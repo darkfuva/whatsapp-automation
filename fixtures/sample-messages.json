@@ -1,0 +1,56 @@
+[
+  {
+    "chatName": "Acme Delivery Team",
+    "senderName": "Riya",
+    "timestampText": "[8:10 AM, 18/04/2026] Riya:",
+    "normalizedTimestamp": "2026-04-18T02:40:00.000Z",
+    "messageText": "Sahil, please send the revised client rollout checklist before 2 PM today.",
+    "messageType": "text",
+    "direction": "incoming"
+  },
+  {
+    "chatName": "Acme Delivery Team",
+    "senderName": "Sahil",
+    "timestampText": "[8:22 AM, 18/04/2026] Sahil:",
+    "normalizedTimestamp": "2026-04-18T02:52:00.000Z",
+    "messageText": "Will do. I also need the final numbers from finance.",
+    "messageType": "text",
+    "direction": "outgoing"
+  },
+  {
+    "chatName": "Finance Desk",
+    "senderName": "Nikhil",
+    "timestampText": "[8:35 AM, 18/04/2026] Nikhil:",
+    "normalizedTimestamp": "2026-04-18T03:05:00.000Z",
+    "messageText": "I will send the Q2 figures by noon. Sahil can you follow up if you don't get them by 12:30 PM?",
+    "messageType": "text",
+    "direction": "incoming"
+  },
+  {
+    "chatName": "Ops Escalations",
+    "senderName": "Megha",
+    "timestampText": "[9:05 AM, 18/04/2026] Megha:",
+    "normalizedTimestamp": "2026-04-18T03:35:00.000Z",
+    "messageText": "Need an update on the warehouse access issue today. Sahil please confirm whether IT fixed it.",
+    "messageType": "text",
+    "direction": "incoming"
+  },
+  {
+    "chatName": "Acme Delivery Team",
+    "senderName": "Arjun",
+    "timestampText": "[5:40 PM, 17/04/2026] Arjun:",
+    "normalizedTimestamp": "2026-04-17T12:10:00.000Z",
+    "messageText": "Sahil, can you review the onboarding notes and send comments tomorrow morning?",
+    "messageType": "text",
+    "direction": "incoming"
+  },
+  {
+    "chatName": "Acme Delivery Team",
+    "senderName": "Riya",
+    "timestampText": "[6:10 PM, 17/04/2026] Riya:",
+    "normalizedTimestamp": "2026-04-17T12:40:00.000Z",
+    "messageText": "Blocker: client still has not approved the dashboard access request.",
+    "messageType": "text",
+    "direction": "incoming"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "whatsapp-web-collector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-only WhatsApp Web collector and daily task extractor using Playwright, TypeScript, and SQLite.",
+  "main": "dist/cli/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "db:init": "tsx src/cli/index.ts db:init",
+    "login": "tsx src/cli/index.ts login",
+    "sync": "tsx src/cli/index.ts sync",
+    "watch": "tsx src/cli/index.ts watch",
+    "today": "tsx src/cli/index.ts today",
+    "ask": "tsx src/cli/index.ts ask",
+    "query": "tsx src/cli/index.ts query",
+    "embeddings:index": "tsx src/cli/index.ts embeddings:index",
+    "chats:list": "tsx src/cli/index.ts chats:list",
+    "chats:add": "tsx src/cli/index.ts chats:add",
+    "chats:remove": "tsx src/cli/index.ts chats:remove",
+    "inspect": "tsx src/cli/index.ts inspect",
+    "fixture:seed": "tsx src/cli/index.ts fixture:seed"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.13.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
